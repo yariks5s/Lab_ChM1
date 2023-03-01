@@ -25,7 +25,7 @@ def iteration(start, amount=10):
     for i in range(amount):
         temp1 = temp - (f(temp)/f_dx(start))
         print(f"{i + 1} Iteration: {temp1}")
-        if post_value(temp1, temp, q):
-            return temp1
+        ##if post_value(temp1, temp, q):
+          ##  return temp1
         temp = temp1
     return temp
